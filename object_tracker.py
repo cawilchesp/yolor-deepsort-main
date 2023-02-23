@@ -257,7 +257,7 @@ def detect():
                     object_id = outputs[:, -1]
 
                     draw_boxes(im0, bbox_xyxy, object_id, identities, csv_path, frame_num, names)
-                    
+            
             # Print time (inference + NMS)
             print(f' Done. ({(t2 - t1):.3f} s)')
 
